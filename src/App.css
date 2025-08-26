@@ -1,0 +1,123 @@
+.card {
+  width: 100%;
+  max-width: 380px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.title {
+  margin: 0 0 12px 0;
+  font-size: 1.35rem;
+}
+
+.label {
+  display: block;
+  margin: 10px 0 6px;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  min-height: 44px;
+  line-height: 1.4;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #111827;
+  outline: none;
+}
+.input::placeholder {
+  color: #9ca3af;
+}
+.input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
+
+.input-error {
+  border-color: #ef4444 !important;
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.3);
+}
+
+.pw-block {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.link-inline {
+  align-self: flex-end;
+  padding: 0;
+  line-height: 1;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0 12px;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+  padding: 4px;
+  font-size: 0.95rem;
+}
+.link-btn:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  width: 100%;
+  padding: 11px 12px;
+  border-radius: 12px;
+  border: none;
+  background: #2563eb;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.btn:hover {
+  background: #1d4ed8;
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.hint {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.error {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  background: rgba(239, 68, 68, 0.08);
+  color: #b91c1c;
+  font-size: 0.95rem;
+}
+
+.success {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  background: rgba(16, 185, 129, 0.08);
+  color: #065f46;
+  font-size: 0.95rem;
+}
